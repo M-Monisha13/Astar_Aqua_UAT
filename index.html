@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/broadsheet-50440a0b-355f-4888-8acf-c82f2956325d/styles.css">
+<script src="_ds/broadsheet-50440a0b-355f-4888-8acf-c82f2956325d/_ds_bundle.js"></script>
+<script src="image-slot.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&amp;display=swap">
+<style>
+:root { --font-heading: "Barlow Condensed", system-ui, sans-serif; --color-accent: #597ea3; --color-accent-100: #eef4fa; --color-accent-200: #d9e6f3; --color-accent-300: #b5d9fd; --color-accent-400: #94bce3; --color-accent-500: #749dc4; --color-accent-600: #4d7093; --color-accent-700: #416180; --color-accent-800: #2c455d; --color-accent-900: #1d2d3d; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+:root { --color-bg: #ffffff; --color-paper: #ffffff; }
+body { margin: 0; text-wrap: pretty; background: var(--color-bg); overflow-x: clip; }
+a { color: var(--color-accent-700); text-underline-offset: 3px; }
+a:hover { color: var(--color-accent-800); }
+</style>
+</helmet>
+
+<nav class="nav" style="position: sticky; top: 0; z-index: 20; background: var(--color-bg); padding: 15px clamp(20px, 5vw, 72px); flex-wrap: wrap; row-gap: 10px;">
+  <a href="#" class="nav-brand" style="margin-right: auto; display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--color-text);">
+    <img src="assets/astar-aqua-mark.png" alt="" style="width: 62px; height: auto; flex: none;">
+    <span style="display: flex; flex-direction: column; align-items: stretch; gap: 4px;">
+      <span style="font-family: var(--font-heading); font-weight: 600; font-size: 23px; line-height: 1; letter-spacing: 0.22em; text-transform: uppercase;">Astar</span>
+      <span style="display: flex; align-items: center; gap: 8px;">
+        <span style="flex: 1; height: 1px; background: var(--color-accent); min-width: 14px;"></span>
+        <span style="font-family: var(--font-heading); font-weight: 600; font-size: 13px; line-height: 1; letter-spacing: 0.34em; text-transform: uppercase; color: var(--color-accent-700);">Aqua</span>
+        <span style="flex: 1; height: 1px; background: var(--color-accent); min-width: 14px;"></span>
+      </span>
+      <span style="font-size: 9.5px; font-weight: 400; line-height: 1; letter-spacing: 0.2em; text-transform: uppercase; text-align: center; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Safe · Simple · Pure</span>
+    </span>
+  </a>
+  <a href="#filters" style="font-size: 13px; white-space: nowrap; color: var(--color-text); text-decoration: none;" style-hover="color: var(--color-accent-700);">Filters</a>
+  <a href="#how" style="font-size: 13px; white-space: nowrap; color: var(--color-text); text-decoration: none;" style-hover="color: var(--color-accent-700);">How it works</a>
+  <a href="#approvals" style="font-size: 13px; white-space: nowrap; color: var(--color-text); text-decoration: none;" style-hover="color: var(--color-accent-700);">Approvals</a>
+  <a href="#book" class="btn btn-primary" style="text-decoration: none; color: #FAFAFA; background-color: var(--color-brand)">Talk to an expert</a>
+</nav>
+
+<div style="overflow: hidden; background-color: var(--color-brand)">
+  <p style="max-width: 1200px; margin: 0 auto; padding: 9px clamp(20px, 5vw, 72px); display: flex; flex-wrap: wrap; gap: 6px 28px; font-size: 12px; line-height: 20px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent-800); white-space: nowrap;">
+    <span style="color: #FFFFFF">Now booking installations across Melbourne's west</span>
+    <span aria-hidden="true">|</span>
+    <span style="color: #FFFFFF">Free water assessment, no obligation</span>
+    
+    
+  </p>
+</div>
+
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 72px);">
+
+  <section style="padding: 100px 0 84px;">
+    <h1 style="font-family: var(--font-heading); font-weight: 600; font-size: clamp(52px, 8.4vw, 116px); line-height: 0.94; letter-spacing: 0; text-transform: uppercase; margin: 0 0 0 -0.02em;">
+      <span style="display: block;">Water you stop thinking about.</span><span style="display: block; color: var(--color-brand)">Fitted, serviced, sorted.</span>
+      
+    </h1>
+    <p style="font-size: 17px; line-height: 28px; max-width: 58ch; margin: 34px 0 0;">Astar Aqua supplies and installs drinking-water filters for homes. Tell us what comes out of your tap and one of our engineers will recommend the right system, fit it properly, and keep it serviced. No pressure, no jargon, no guesswork.</p>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px;">
+      <a href="tel:+61466911313" class="btn btn-primary" style="text-decoration: none; color: #FFFFFF; background-color: var(--color-brand); font-size: 20px; line-height: 24px; padding: 16px 28px; font-weight: 600;">Call 0466 911 313📞</a>
+      <a href="https://wa.me/61466911313" target="_blank" rel="noopener" class="btn btn-ghost" style="text-decoration: none; font-size: 20px; line-height: 24px; padding: 16px 28px; font-weight: 600; border-width: 2px;">WhatsApp</a>
+      <a href="mailto:astaraquaexperts@gmail.com?subject=Inspection%20booking" class="btn btn-ghost" style="text-decoration: none; font-size: 20px; line-height: 24px; padding: 16px 28px; font-weight: 600; border-width: 2px;">Email us 🖂</a>
+    </div>
+  </section>
+
+  <section style="display: flex; flex-wrap: wrap; gap: 28px clamp(24px, 5vw, 96px); align-items: center; padding: 56px 0 84px;">
+    <div style="flex: 1 1 320px; min-width: 0;">
+      <span style="display: block; font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 0 0 14px;">About Astar Aqua</span>
+      <h2 style="font-family: var(--font-heading); font-weight: 600; font-size: 42px; line-height: 44px; letter-spacing: 0.01em; text-transform: uppercase; margin: 0;">We fit the filter, then we look after it</h2>
+      <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 20px 0 0; max-width: 48ch; text-align: justify; hyphens: auto;">Most people buy a filter once and forget it, which is exactly how a filter stops working. We do it the other way round. Every job starts with a look at your water and your plumbing, and ends with a unit that is on our service list, with cartridges arriving before they are due.</p>
+      <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 28px 0 0; max-width: 48ch; text-align: justify; hyphens: auto;">Our engineers are employed, not subcontracted. If something is wrong six months after fitting, the person who answers the phone can send the person who did the work.</p>
+    </div>
+    <figure style="margin: 0; flex: 1 1 420px; min-width: 0; position: relative; overflow: hidden; aspect-ratio: 986 / 660;">
+      <image-slot id="aqua-about-screen" shape="rect" placeholder="Photo: an engineer fitting an under-sink unit" role="img" aria-label="An Astar Aqua engineer fitting an under-sink filter" style="overflow: visible; position: absolute;"></image-slot>
+    </figure>
+  </section>
+
+  <section id="filters" style="padding: 56px 0 70px;">
+    <span style="display: block; font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 0 0 14px;">The range</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 600; font-size: 42px; line-height: 44px; letter-spacing: 0.01em; text-transform: uppercase; margin: 0 0 14px; max-width: 30ch;">Three systems. One of them is yours.</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 42px clamp(28px, 4vw, 64px); margin-top: 28px;">
+      <div style="display: flex; flex-direction: column;">
+        <div style="position: relative; overflow: hidden; aspect-ratio: 4 / 3;"><image-slot id="aqua-product-one" shape="rect" placeholder="Photo: Essential Home Filter"></image-slot></div>
+        <div aria-hidden="true" style="height: 24px; margin: 14px 0 20px;"></div>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 27px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 0; color: var(--color-brand)">Essential Home Filter</h3>
+        <p style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-brand-deep); margin: 10px 0 0; font-weight: 700">---------------------------------------------</p>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 14px 0 0; text-align: justify; hyphens: auto; flex: 1;">Perfect for homes connected to town water, the Essential Home Filter removes sediment, dirt, rust and chlorine to deliver cleaner, better-tasting water throughout your entire home. It helps protect appliances, improves water quality for showering and drinking, and provides an affordable entry into whole-house filtration.</p>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 14px; margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--color-text);">
+          <span style="font-family: var(--font-heading); font-weight: 600; font-size: 28px; line-height: 28px; letter-spacing: 0.02em;">$6,000</span>
+          <button type="button" onClick="{{ open1 }}" style="background: none; border: 0; padding: 6px 0; font: inherit; font-size: 15px; font-weight: 600; color: var(--color-accent-700); cursor: pointer; text-decoration: underline; text-underline-offset: 4px;" style-hover="color: var(--color-text);">Read more →</button>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <div style="position: relative; overflow: hidden; aspect-ratio: 4 / 3;">
+          <sc-if value="{{ is2silver }}" hint-placeholder-val="{{ true }}"><image-slot id="aqua-product-flow" shape="rect" placeholder="Photo: Advanced Home Filter — stainless/silver"></image-slot></sc-if>
+          <sc-if value="{{ is2white }}" hint-placeholder-val="{{ false }}"><image-slot id="aqua-product-flow-white" shape="rect" placeholder="Photo: Advanced Home Filter — white"></image-slot></sc-if>
+          <sc-if value="{{ is2black }}" hint-placeholder-val="{{ false }}"><image-slot id="aqua-product-flow-black" shape="rect" placeholder="Photo: Advanced Home Filter — black"></image-slot></sc-if>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; margin: 14px 0 20px;">
+          <sc-for list="{{ sw2 }}" as="s" hint-placeholder-count="3">
+            <button type="button" onClick="{{ s.pick }}" aria-label="{{ s.label }}" aria-pressed="{{ s.on }}" title="{{ s.label }}" style="width: 24px; height: 24px; border-radius: 50%; border: 0; padding: 0; cursor: pointer; background: {{ s.bg }}; box-shadow: {{ s.ring }};"></button>
+          </sc-for>
+          <span style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin-left: 4px;">{{ c2Label }}</span>
+        </div>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 27px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 0; color: var(--color-brand)">Complete Home Filter</h3>
+        <p style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-brand-deep); margin: 10px 0 0; font-weight: 700">---------------------------------------------</p>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 14px 0 0; text-align: justify; hyphens: auto; flex: 1;">Designed for families who want a higher level of water treatment, the Advanced Home Filter uses premium catalytic carbon technology to reduce chlorine, chloramines, unpleasant tastes and odours. It is ideal for households seeking enhanced water quality and a more refreshing experience from every tap.</p>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 14px; margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--color-text);">
+          <span style="font-family: var(--font-heading); font-weight: 600; font-size: 28px; line-height: 28px; letter-spacing: 0.02em;">{{ price2 }}</span>
+          <button type="button" onClick="{{ open2 }}" style="background: none; border: 0; padding: 6px 0; font: inherit; font-size: 15px; font-weight: 600; color: var(--color-accent-700); cursor: pointer; text-decoration: underline; text-underline-offset: 4px;" style-hover="color: var(--color-text);">Read more →</button>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <div style="position: relative; overflow: hidden; aspect-ratio: 4 / 3;">
+          <sc-if value="{{ is3silver }}" hint-placeholder-val="{{ true }}"><image-slot id="aqua-product-counter" shape="rect" placeholder="Photo: Complete Tank Water System — stainless/silver"></image-slot></sc-if>
+          <sc-if value="{{ is3white }}" hint-placeholder-val="{{ false }}"><image-slot id="aqua-product-counter-white" shape="rect" placeholder="Photo: Complete Tank Water System — white"></image-slot></sc-if>
+          <sc-if value="{{ is3black }}" hint-placeholder-val="{{ false }}"><image-slot id="aqua-product-counter-black" shape="rect" placeholder="Photo: Complete Tank Water System — black"></image-slot></sc-if>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; margin: 14px 0 20px;">
+          <sc-for list="{{ sw3 }}" as="s" hint-placeholder-count="3">
+            <button type="button" onClick="{{ s.pick }}" aria-label="{{ s.label }}" aria-pressed="{{ s.on }}" title="{{ s.label }}" style="width: 24px; height: 24px; border-radius: 50%; border: 0; padding: 0; cursor: pointer; background: {{ s.bg }}; box-shadow: {{ s.ring }};"></button>
+          </sc-for>
+          <span style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin-left: 4px;">{{ c3Label }}</span>
+        </div>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 27px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 0; color: var(--color-brand)">Advanced Home Filter</h3>
+        <p style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-brand-deep); margin: 10px 0 0; font-weight: 700">---------------------------------------------</p>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 14px 0 0; text-align: justify; hyphens: auto; flex: 1;">Built specifically for rainwater tank users, the Complete Tank Water System combines sediment filtration, carbon filtration and UV sterilisation for comprehensive protection. It removes particles, improves taste and helps safeguard your family against bacteria and other microorganisms commonly found in untreated water sources</p>
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 14px; margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--color-text);">
+          <span style="font-family: var(--font-heading); font-weight: 600; font-size: 28px; line-height: 28px; letter-spacing: 0.02em;">{{ price3 }}</span>
+          <button type="button" onClick="{{ open3 }}" style="background: none; border: 0; padding: 6px 0; font: inherit; font-size: 15px; font-weight: 600; color: var(--color-accent-700); cursor: pointer; text-decoration: underline; text-underline-offset: 4px;" style-hover="color: var(--color-text);">Read more →</button>
+        </div>
+      </div>
+    </div>
+    <sc-if value="{{ modalOpen }}" hint-placeholder-val="{{ false }}">
+      <div onClick="{{ closeModal }}" style="position: fixed; inset: 0; z-index: 50; background: color-mix(in srgb, var(--color-text) 55%, transparent); display: flex; align-items: center; justify-content: center; padding: 24px;">
+        <div role="dialog" aria-modal="true" aria-label="{{ m.sub }}" onClick="{{ stop }}" style="position: relative; background: var(--color-paper); width: 100%; max-width: 880px; max-height: calc(100vh - 48px); overflow: auto; padding: clamp(24px, 4vw, 48px); box-sizing: border-box;">
+          <button type="button" onClick="{{ closeModal }}" aria-label="Close" style="position: absolute; top: 12px; right: 12px; width: 44px; height: 44px; border: 0; background: none; font-size: 28px; line-height: 1; cursor: pointer; color: var(--color-text);">×</button>
+          <div style="display: flex; flex-wrap: wrap; gap: 28px 42px;">
+            <div style="flex: 1 1 300px; min-width: 0; aspect-ratio: 4 / 3;"><image-slot id="{{ m.slot }}" shape="rect" placeholder="{{ m.sub }}"></image-slot></div>
+            <div style="flex: 1 1 300px; min-width: 0;">
+              <p style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-brand-deep); margin: 0 0 10px; font-weight: 700">{{ m.sub }}</p>
+              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 42px; line-height: 44px; letter-spacing: 0.01em; text-transform: uppercase; margin: 0;">{{ m.name }}</h3>
+              <p style="font-family: var(--font-heading); font-weight: 600; font-size: 28px; line-height: 28px; margin: 14px 0 0;">{{ m.price }}</p>
+              <sc-if value="{{ m.hasColor }}" hint-placeholder-val="{{ false }}">
+                <p style="font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 10px 0 0;">Colour: {{ m.color }}</p>
+              </sc-if>
+              <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 14px 0 0; text-align: justify; hyphens: auto; text-align: left;">{{ m.desc }}</p>
+            </div>
+          </div>
+          <div style="margin-top: 28px; padding: 20px; border: 1px dashed color-mix(in srgb, var(--color-text) 40%, transparent); font-size: 15px; line-height: 26px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Full product details go here: filter stages, what it removes, flow rate, dimensions, installation, maintenance and warranty.</div>
+        </div>
+      </div>
+    </sc-if>
+  </section>
+
+  <section id="how" style="padding: 56px 0 70px;">
+    <span style="display: block; font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 0 0 14px;">How it works</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 600; font-size: 42px; line-height: 44px; letter-spacing: 0.01em; text-transform: uppercase; margin: 0 0 28px; max-width: 30ch;">Four steps, and one of them is ours forever</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 42px clamp(24px, 3.5vw, 56px);">
+      <div>
+        <p style="font-family: var(--font-heading); font-weight: 600; font-size: 58px; margin: 0; line-height: 1; color: var(--color-brand)">01</p>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 23px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 14px 0 0;">Tell us about your water</h3>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 8px 0 0;">Fill in the form below or call. We ask about taste, hardness, your postcode and your plumbing.</p>
+      </div>
+      <div>
+        <p style="font-family: var(--font-heading); font-weight: 600; font-size: 58px; margin: 0; line-height: 1; color: var(--color-brand)">02</p>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 23px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 14px 0 0;">Speak to an expert</h3>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 8px 0 0;">An engineer, not a salesperson, calls you back within a day with a recommendation and a price.</p>
+      </div>
+      <div>
+        <p style="font-family: var(--font-heading); font-weight: 600; font-size: 58px; margin: 0; line-height: 1; color: var(--color-brand)">03</p>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 23px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 14px 0 0;">We fit it</h3>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 8px 0 0;">Most installations take under two hours. We test the water before we leave and show you the reading.</p>
+      </div>
+      <div>
+        <p style="font-family: var(--font-heading); font-weight: 600; font-size: 58px; margin: 0; line-height: 1; color: var(--color-brand)">04</p>
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 23px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 14px 0 0;">We keep it working</h3>
+        <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 8px 0 0;">Cartridges arrive by post before they are due, with a reminder. Annual service visits are optional.</p>
+      </div>
+    </div>
+    <sc-if value="{{ showStagesTable }}" hint-placeholder-val="{{ true }}">
+      <div style="margin-top: 70px; max-width: 780px;">
+        <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 23px; line-height: 28px; letter-spacing: 0.02em; text-transform: uppercase; margin: 0 0 14px;">What the five stages do</h3>
+        <table class="table">
+          <thead>
+            <tr><th>Stage</th><th>Media</th><th>What it takes out</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>01</td><td>Sediment</td><td>Grit, rust, silt and pipe debris down to 5 microns</td></tr>
+            <tr><td>02</td><td>Carbon block</td><td>Chlorine, taste and odour compounds</td></tr>
+            <tr><td>03</td><td>RO membrane</td><td>Dissolved metals, nitrates, fluoride, microplastics</td></tr>
+            <tr><td>04</td><td>Post-carbon</td><td>Anything picked up in the storage tank</td></tr>
+            <tr><td>05</td><td>Mineral cartridge</td><td>Nothing — it puts calcium and magnesium back</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </sc-if>
+  </section>
+
+  <section style="padding: 70px 0 98px;">
+    <figure style="margin: 0;">
+      <blockquote style="font-family: var(--font-body); font-style: italic; font-weight: 400; font-size: clamp(24px, 2.8vw, 36px); line-height: 1.32; letter-spacing: -0.01em; max-width: 34ch; margin: 0; text-indent: -0.475em;">“The kettle stopped furring up and my daughter finally drinks water from the tap. Two hours to fit, and I have not thought about it since.”</blockquote>
+      <figcaption style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 42px 0 0; text-indent: -1.045em;">— R. Nguyen, Aqua One fitted in Werribee</figcaption>
+    </figure>
+  </section>
+
+  <section id="approvals" style="padding: 56px 0 70px;">
+    <span style="display: block; font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 0 0 14px;">Approvals and testing</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 600; font-size: 42px; line-height: 44px; letter-spacing: 0.01em; text-transform: uppercase; margin: 0 0 20px; max-width: 34ch;">Everything we fit is approved for drinking water</h2>
+    <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 0 0 28px; max-width: 58ch;">Membranes and media are independently tested; wetted materials carry drinking-water approval; our engineers are certified to work on mains supply. Certificates are in the brochure, and we will send the current ones on request.</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <span class="tag tag-outline" style="color: var(--color-brand)">Materials approved for potable water</span>
+      <span class="tag tag-outline" style="color: var(--color-brand)">Membrane tested to NSF/ANSI 58</span>
+      <span class="tag tag-outline" style="color: var(--color-brand)">Carbon tested to NSF/ANSI 42</span>
+      <span class="tag tag-outline" style="color: var(--color-brand)">ISO 9001 quality management</span>
+      <span class="tag tag-outline" style="color: var(--color-brand)">Engineers certified for mains work</span>
+      <span class="tag tag-accent" style="color: var(--color-brand); background-color: #FDE1E1">Two-year system warranty</span>
+    </div>
+  </section>
+
+  <section id="book" style="padding: 56px 0 84px;">
+    <span style="display: block; font-size: 13px; line-height: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 0 0 14px;">Contact</span>
+    <h2 style="font-family: var(--font-heading); font-weight: 600; font-size: 42px; line-height: 44px; letter-spacing: 0.01em; text-transform: uppercase; margin: 0 0 20px; max-width: 30ch;">Book an inspection</h2>
+    <p style="font-size: 15.5px; line-height: 28px; color: color-mix(in srgb, var(--color-text) 78%, transparent); margin: 0; max-width: 58ch;">Send us your suburb, your water source (town water or rainwater tank) and a time that suits. We'll confirm your inspection.</p>
+    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px;">
+      <a href="tel:+61466911313" class="btn btn-primary" style="text-decoration: none; color: #FFFFFF; background-color: var(--color-brand); font-size: 20px; line-height: 24px; padding: 16px 28px; font-weight: 600;">Let's Talk</a>
+      <a href="https://wa.me/614266911313" target="_blank" rel="noopener" class="btn btn-ghost" style="text-decoration: none; font-size: 20px; line-height: 24px; padding: 16px 28px; font-weight: 600; border-width: 2px;">WhatsApp</a>
+      <a href="mailto:astaraquaexperts@gmail.com?subject=Inspection%20booking" class="btn btn-ghost" style="text-decoration: none; font-size: 20px; line-height: 24px; padding: 16px 28px; font-weight: 600; border-width: 2px;">Email us</a>
+    </div>
+  </section>
+
+  <div style="margin: 42px 0 0; padding: 14px 0 0; border-top: 1px solid color-mix(in srgb, var(--color-text) 16%, transparent);">
+    <p style="margin: 0; font-size: 12.5px; line-height: 24px; letter-spacing: 0; color: var(--color-accent-700);">ASTAR AQUA acknowledges the Traditional Custodians of the lands on where we work, live, and conduct business across Australia. We pay our respects to Elders past and present</p>
+  </div>
+
+  <footer style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px 28px; background: var(--color-surface); margin: 0 auto 42px; padding: 16px clamp(20px, 4vw, 40px); font-size: 13px; line-height: 22px; color: color-mix(in srgb, var(--color-text) 70%, transparent); max-width: 1056px; width: 100%; box-sizing: border-box">
+    <img src="assets/astar-aqua-logo.png" alt="Astar Aqua — safe, simple, pure" style="width: 72px; height: auto; flex: 0 0 auto; mix-blend-mode: multiply">
+    <p style="margin: 0; flex: 1 1 auto; text-align: center;">© 2026 Astar Aqua. All rights reserved.</p>
+    <div style="flex: 0 1 auto; text-align: right;">
+      <p style="margin: 0;">Astar Aqua || 18/2 Fastline Rd, Truganina VIC 3029</p>
+      <p style="margin: 0;">0061 466 911 313 || astaraquaexperts@gmail.com</p>
+    </div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showStagesTable&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;enquiryDepth&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Full&quot;,&quot;Short&quot;],&quot;default&quot;:&quot;Full&quot;,&quot;tsType&quot;:&quot;'Full' | 'Short'&quot;,&quot;section&quot;:&quot;Enquiry form&quot;},&quot;palette&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;Steel blue&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;Steel blue&quot;,&quot;Teal&quot;,&quot;Navy&quot;,&quot;Warm sand&quot;],&quot;section&quot;:&quot;Colour&quot;}}">
+class Component extends DCLogic {
+  state = { sent: false, confirmation: "", c2: "silver", c3: "silver", modal: null };
+
+  COLORS = { silver: { label: "Stainless / Silver", bg: "linear-gradient(135deg, #f1f2f3, #9aa1a8)" }, white: { label: "White", bg: "#ffffff" }, black: { label: "Black", bg: "#1b1d1f" } };
+  PRICES = { 1: { silver: 6000 }, 2: { silver: 6000, white: 6200, black: 6500 }, 3: {} };
+  PRODUCTS = {
+    1: { name: "Aqua Bronze", sub: "Essential Home Filter", slot: "aqua-product-one", desc: "Perfect for homes connected to town water, the Essential Home Filter removes sediment, dirt, rust and chlorine to deliver cleaner, better-tasting water throughout your entire home. It helps protect appliances, improves water quality for showering and drinking, and provides an affordable entry into whole-house filtration." },
+    2: { name: "Aqua Silver", sub: "Advanced Home Filter", slot: "aqua-product-flow", desc: "Designed for families who want a higher level of water treatment, the Advanced Home Filter uses premium catalytic carbon technology to reduce chlorine, chloramines, unpleasant tastes and odours. It is ideal for households seeking enhanced water quality and a more refreshing experience from every tap." },
+    3: { name: "Aqua Gold", sub: "Complete Tank Water System", slot: "aqua-product-counter", desc: "Built specifically for rainwater tank users, the Complete Tank Water System combines sediment filtration, carbon filtration and UV sterilisation for comprehensive protection. It removes particles, improves taste and helps safeguard your family against bacteria and other microorganisms commonly found in untreated water sources" },
+  };
+  price = (p, c) => { const v = this.PRICES[p][c]; return v ? "$" + v.toLocaleString("en-AU") : "Price on request"; };
+  swatches = (p) => Object.keys(this.COLORS).map((k) => {
+    const on = this.state["c" + p] === k;
+    return { label: this.COLORS[k].label, bg: this.COLORS[k].bg, on, pick: () => this.setState({ ["c" + p]: k }),
+      ring: on ? "0 0 0 2px var(--color-paper), 0 0 0 3.5px var(--color-text)" : "inset 0 0 0 1px rgba(0,0,0,0.3)" };
+  });
+  onKey = (e) => { if (e.key === "Escape" && this.state.modal) this.setState({ modal: null }); };
+  PALETTES = {
+    "Steel blue": null,
+    "Teal": { h: 195, c: 0.09, brand: "#0E7C86", deep: "#0A4F57", text: "#10262A", surface: "#E9F2F3" },
+    "Navy": { h: 262, c: 0.1, brand: "#1F4E9C", deep: "#12296B", text: "#10172B", surface: "#E8ECF4" },
+    "Warm sand": { h: 60, c: 0.07, brand: "#A5561A", deep: "#6B3410", text: "#2B2118", surface: "#F3EDE4" },
+  };
+  applyPalette() {
+    const s = document.documentElement.style, p = this.PALETTES[this.props.palette ?? "Steel blue"];
+    const keys = ["--color-brand","--color-brand-deep","--color-text","--color-surface","--color-accent"].concat([100,200,300,400,500,600,700,800,900].map((n) => "--color-accent-" + n));
+    keys.forEach((k) => s.removeProperty(k));
+    s.setProperty("--color-brand", p ? p.brand : "#289EEB");
+    s.setProperty("--color-brand-deep", p ? p.deep : "#0013DC");
+    if (!p) return;
+    s.setProperty("--color-text", p.text); s.setProperty("--color-surface", p.surface);
+    const L = { 100: 0.96, 200: 0.92, 300: 0.85, 400: 0.78, 500: 0.68, 600: 0.54, 700: 0.46, 800: 0.35, 900: 0.25 };
+    s.setProperty("--color-accent", "oklch(0.58 " + p.c + " " + p.h + ")");
+    Object.keys(L).forEach((n) => s.setProperty("--color-accent-" + n, "oklch(" + L[n] + " " + (n < 300 ? p.c * 0.25 : p.c) + " " + p.h + ")"));
+  }
+  componentDidMount() { window.addEventListener("keydown", this.onKey); this.applyPalette(); }
+  componentDidUpdate(prev) { if (prev.palette !== this.props.palette) this.applyPalette(); }
+  componentWillUnmount() { window.removeEventListener("keydown", this.onKey); }
+
+
+  submit = (e) => {
+    e.preventDefault();
+    const d = new FormData(e.target);
+    const name = (d.get("name") || "").toString().trim().split(" ")[0] || "there";
+    const when = d.get("calltime") || "the morning";
+    const concern = (d.get("concern") || "").toString().toLowerCase();
+    this.setState({
+      sent: true,
+      confirmation:
+        name +
+        ", one of our engineers will call you in the " +
+        when.toString().toLowerCase() +
+        " within one working day to talk through " +
+        concern +
+        ". Nothing else is needed from you now.",
+    });
+  };
+
+  reset = () => this.setState({ sent: false, confirmation: "" });
+
+  renderVals() {
+    return {
+      sent: this.state.sent,
+      sw2: this.swatches(2), sw3: this.swatches(3),
+      c2Label: this.COLORS[this.state.c2].label, c3Label: this.COLORS[this.state.c3].label,
+      is2silver: this.state.c2 === "silver", is2white: this.state.c2 === "white", is2black: this.state.c2 === "black",
+      is3silver: this.state.c3 === "silver", is3white: this.state.c3 === "white", is3black: this.state.c3 === "black",
+      price2: this.price(2, this.state.c2), price3: this.price(3, this.state.c3),
+      open1: () => this.setState({ modal: 1 }), open2: () => this.setState({ modal: 2 }), open3: () => this.setState({ modal: 3 }),
+      closeModal: () => this.setState({ modal: null }), stop: (e) => e.stopPropagation(),
+      modalOpen: !!this.state.modal,
+      m: (() => { const p = this.state.modal || 1, c = p === 1 ? "silver" : this.state["c" + p], d = this.PRODUCTS[p];
+        return { ...d, slot: c === "silver" || p === 1 ? d.slot : d.slot + "-" + c, price: this.price(p, c), hasColor: p !== 1, color: this.COLORS[c].label }; })(),
+      showForm: !this.state.sent,
+      confirmation: this.state.confirmation,
+      submit: this.submit,
+      reset: this.reset,
+      showBrochure: this.props.showBrochure ?? true,
+      showStagesTable: this.props.showStagesTable ?? true,
+      fullForm: (this.props.enquiryDepth ?? "Full") === "Full",
+    };
+  }
+}
+
+</script>
+</body>
+</html>
